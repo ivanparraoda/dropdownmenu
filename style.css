@@ -13,6 +13,7 @@ body{
 
 .heroimg img{
     width:100%;
+   
 }
 
 .card__holder{
@@ -27,7 +28,8 @@ body{
 }
 
 .text{
-    margin-right: 6rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
 }
 
 .text h1{
@@ -38,5 +40,19 @@ body{
 .text p{
     font-weight: 400;
     padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.boton{
+    background-color: var(--ablack);
+    color: var(--awhite);
+    padding: .5em 1em;
+    border-radius: .5rem;
+    margin-bottom: 6rem;
+}
+
+.logos{
+    
 }
 
