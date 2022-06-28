@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --awhite: hsl(0, 0%, 98%);
     --mgray:hsl(0, 0%, 41%);
@@ -8,16 +12,18 @@
 body{
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .heroimg img{
     width:100%;
+    height: 700px;
    
 }
 
+
 .card__holder{
-    border: 4px solid red;
+    
     padding: 5rem;
 }
 
@@ -52,7 +58,35 @@ body{
     margin-bottom: 6rem;
 }
 
-.logos{
+.registro, .log{
+    background-color: var(--awhite);
+    color: var(--mgray);
+    padding: .5em 1em;
+    border-radius: .5rem;
+    border: 1px solid  var(--mgray);
+  
+}
+
+
+
+header{
+    width: 100vw;
+    padding: 2rem;
+    
+    display: inline-block;
     
 }
 
+.mystyle{
+    display: none;
+}
+
+ul{
+   
+    list-style: none;
+}
+
+
+.menum{
+    display: flex;
+}
